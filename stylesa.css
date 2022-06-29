@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(245, 245, 245, 0.525);
+}
+
+a{
+    text-decoration: none;
+}
+
+thead{
+    background-color: gray;
+}
+
+table{
+    width: fit-content;
+    border: 1px black solid;
+    background-color: azure;
+}

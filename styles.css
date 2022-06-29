@@ -1,0 +1,181 @@
+html,body,#menu,.add{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.a{
+    margin: 1px;
+    padding-top: 1%;
+    text-decoration: none;
+    text-align: center;
+    border: 1px black solid;
+    background-color: white;
+}
+
+#add{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#add:hover{
+    cursor: pointer;
+}
+
+body{
+    background-image: url('http://atcs-dishub.bandung.go.id/atcs-img/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#map {
+    height: 515px;
+    width: 100%;
+}
+
+img{
+    width: 400px;
+}
+
+#input{
+    padding-left: 10px;
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.txt{
+    color: white;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0 0 2px;
+    transform: translate(-20px,-38px);
+}
+
+.add{
+    width: 40%;
+    height: 40%;
+    display: inline-flex;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.add:hover{
+    cursor: pointer;
+}
+
+#adds{
+    font-size: xx-large;
+    position: absolute;
+    top: -25px;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#adds:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+#content {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+#contents {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.content_left {
+    display: inline;
+    float: left;
+    width: 70%
+}
+
+.content_right {
+    display: inline;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    max-height: 515px;
+    border-radius: 10px;
+}
+
+.block{
+    display: inline-block;
+    margin: 2%;
+    width: 40%;
+    height: 360px;
+}
+
+.blocks{
+    display: inline-block;
+    margin: 2%;
+    width: 400px;
+    height: 360px;
+}
+
+.button{
+    padding-left: 10px;
+    padding: 4px;
+    border: 1px solid black;
+    background: #ddd;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.buttonx{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: 0;
+    background-color: rgba(0,0,0,0); 
+}
+
+.buttonx:hover{
+    cursor: pointer;
+}
+
+#input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.vid{
+    float: right;
+    top: 0;
+    bottom: 0;
+}
+
+.vid:hover{
+    cursor: pointer;
+}
+
+.mapboxgl-marker:hover{
+    cursor: pointer;
+}
